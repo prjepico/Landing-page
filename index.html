@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect With Us!</title>
     
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/qMgmF6P5/epico-icon.png">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
     
@@ -50,6 +52,7 @@
             margin-bottom: 10px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
             animation: float 4s ease-in-out infinite;
+            object-fit: cover;
         }
 
         @keyframes float {
@@ -60,10 +63,9 @@
         h1 { font-size: 1.7rem; margin-bottom: 5px; }
         p { font-weight: 400; margin-bottom: 35px; opacity: 0.85; font-size: 0.95rem; }
 
-        /* Icon Container Styling */
         .link-card {
             display: grid;
-            grid-template-columns: 40px 1fr 40px; /* Aligns icon, text, and an empty space for perfect centering */
+            grid-template-columns: 40px 1fr 40px;
             align-items: center;
             background: var(--glass);
             backdrop-filter: blur(12px);
@@ -80,7 +82,6 @@
             opacity: 0;
         }
 
-        /* Icon size and color */
         .link-card i {
             font-size: 1.4rem;
             text-align: left;
@@ -101,7 +102,6 @@
         .btn-1 { animation-delay: 0.1s; }
         .btn-2 { animation-delay: 0.2s; }
         .btn-3 { animation-delay: 0.3s; }
-        .btn-4 { animation-delay: 0.4s; }
 
         .footer { margin-top: 30px; font-size: 0.75rem; opacity: 0.6; }
     </style>
@@ -114,19 +114,19 @@
         <h1>Let's Connect! ✨</h1>
         <p>Thank you for your support</p>
 
-        <a href="https://www.instagram.com/_epico.ph/" class="link-card btn-1">
+        <a href="https://www.instagram.com/_epico.ph/" target="_blank" class="link-card btn-1">
             <i class="fa-brands fa-instagram"></i>
             <span>Instagram</span>
             <span></span>
         </a>
 
-        <a href="https://www.tiktok.com/@_epico.ph" class="link-card btn-2">
+        <a href="https://www.tiktok.com/@_epico.ph" target="_blank" class="link-card btn-2">
             <i class="fa-brands fa-tiktok"></i>
             <span>TikTok</span>
             <span></span>
         </a>
 
-        <a href="https://www.facebook.com/EpiCo.ph" class="link-card btn-3">
+        <a href="https://www.facebook.com/EpiCo.ph" target="_blank" class="link-card btn-3">
             <i class="fa-brands fa-facebook"></i>
             <span>Facebook</span>
             <span></span>
